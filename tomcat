@@ -1,0 +1,5 @@
+FROM ubuntu
+MAINTAINER Ashish Jaiswal <ashish1099@gmail.com>, Anand Ved <anandved@yahoo.com>, Nikhil <>
+RUN apt-get update && apt-get install -qy openjdk-7-jdk tomcat7
+EXPOSE 8080
+CMD service tomcat7 start
