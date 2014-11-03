@@ -8,4 +8,5 @@ The architecture below displays a typical application stack with a Load Balancer
 front-ending two application servers – Application Server#1 and Application Server#2, both in their respective 
 docker-containers and writing to a LogManager in the Host environment. Assuming the increase in user requests detected automatically, a new instance is spawn on the fly and automatically configured to balance the load out in an elastic auto-scaling mode.
 
+Below Image is an Architecture of what we have planned so far.
 ![Alt text](DockerApp.png "Architecture")
